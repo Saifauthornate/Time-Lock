@@ -2,9 +2,8 @@
 pragma solidity ^0.8.10;
 
 
-contract TestTimeLock{
-    address public timelock;
-
+ contract TestTimeLock{
+    address  public timelock;
     constructor (address _timelock){
         timelock=_timelock;
     }
